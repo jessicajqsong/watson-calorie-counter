@@ -30,17 +30,30 @@
             document.getElementById("cameraInst").innerHTML="";
         }
         </script>
+        <style>
+        body {background-image: "img/Fruits_alt.jpg";}
+        h1   {color: black;}
+        </style>
     </head>
     <body>
         <header>
             <img id="logo" src="img/cc_logo.jpg" alt="Calorie_Counterlogo">
-            <h1>Calorie Counter</h1>
+            <h1><font face="Garamond">Nutrition Assistant</h1>
             <input type="image" id="captureImage" src="img/camera.png" onclick="delcamInst()"/>
         </header>
         <article>
             <!-- Capture and display image -->
+            <div><font face="Garamond">
+            	Welcome!
+            </div>
+            <div><font face="Garamond">
+            	I'm Watson, your personal Nutrition Assistant
+            </div>
+            <div><font face="Garamond">
+            	I'm happy to help you figuring out the nutrition info about your food!
+            </div>
             <div>
-                <div id="cameraInst"><b>Click on the CAMERA ICON to capture image!</b></div>
+                <div id="cameraInst"><b><font face="Garamond">Simply click on the CAMERA ICON and capture an image!</b></div>
                 <img id="myPhoto"/>
             </div>
 
