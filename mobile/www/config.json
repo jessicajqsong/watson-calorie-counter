@@ -1,5 +1,5 @@
 {
-	"BLUEMIX_SERVER_URL": "<add-bluemix-server-url>",
-	"NUTRITIONIX_APP_ID": "<add-nutritionix-app-id>",
-	"NUTRITIONIX_APP_KEY": "<add-nutritionix-app-key>"
+	"BLUEMIX_SERVER_URL": "https://watson-calorie-counter-20190119163954799.mybluemix.net/",
+	"NUTRITIONIX_APP_ID": "740307b3",
+	"NUTRITIONIX_APP_KEY": "a78d48e5029ec2935778ad3228eb4850"
 }
